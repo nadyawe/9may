@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    font-family: "Lugrasimo", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.wrapper {
+    min-height: 100%;
+}
+
+.hero {
+    background: url(../img/обои.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.container {
+    max-width: 1180px;
+    padding: 0 5px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.header {
+    padding-top: 80px;
+}
+
+.nav {
+    width: 815px;
+}
+
+.nav__list {
+    padding: 90px 0px;
+    display: flex;
+    justify-content: space-around;
+    column-gap: 30px;
+    font-weight: 30px;
+}
+
+.nav__link {
+    font-size: 20px;
+    transition: 1s;
+    letter-spacing: 1px;
+}
+
+.nav__link:hover {
+    font-size: 23px;
+    text-decoration: underline;
+}
+
+.hero__content {
+    text-align: center;
+    margin-top: 130px;
+}
+
+.title {
+    font-size: 80px;
+    letter-spacing: 5px;
+}
+
+.subtitle {
+    font-size: 23px;
+    letter-spacing: 2px;
+    font-weight: 30px;
+}
+
+.interes__fact {
+    height: 100vh;
+}
+
+.container {}
+
+.fact__title {}
+
+.fact {
+    list-style-type: decimal-leading-zero;
+}
+
+.facts {}
