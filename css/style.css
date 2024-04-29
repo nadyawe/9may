@@ -60,10 +60,12 @@ a {
 
 .nav {
     width: 815px;
+    margin: 0 auto;
 }
 
 .nav__list {
-    padding: 90px 0px;
+    padding-top: 70px;
+    padding-bottom: 30px;
     display: flex;
     justify-content: space-around;
     column-gap: 30px;
@@ -97,16 +99,86 @@ a {
     font-weight: 30px;
 }
 
-.interes__fact {
+#interes__facts {
     height: 100vh;
+    background: url(../img/фон1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .container {}
 
-.fact__title {}
+.facts__container {}
 
-.fact {
+.facts__title {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.facts {
     list-style-type: decimal-leading-zero;
 }
 
-.facts {}
+.fact__item {
+    line-height: 30px;
+    font-size: 20px;
+}
+
+#poems {
+    height: 100vh;
+    background: url(../img/фон2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {}
+
+.poems__title {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.poems {
+    display: flex;
+    justify-content: space-around;
+}
+
+.poem {}
+
+.poem__text {
+    font-size: 20px;
+
+}
+
+#heroes {
+    height: 100vh;
+    background: url(../img/фон3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {}
+
+.heroes__title {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.heroes__desc {
+    display: flex;
+    justify-content: space-between;
+}
+
+.heroes__img-wrap {
+    width: 400px;
+}
+
+.heroes__img {}
+
+.heroes__text {
+    width: 700px;
+    font-size: 22px;
+}
